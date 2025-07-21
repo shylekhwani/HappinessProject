@@ -1,6 +1,6 @@
 import bgImg from "../assets/bgimg.jpg";
 
-const BgImage = () => {
+const Explore = () => {
   return (
    <div className="relative w-full h-screen">
       <img
@@ -26,4 +26,4 @@ const BgImage = () => {
   );
 };
 
-export default BgImage;
+export default Explore;
