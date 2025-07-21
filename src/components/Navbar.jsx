@@ -28,9 +28,11 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden bg-gradient-to-r from-[#4A6074] to-[#283E51] opacity-100 px-4 pb-4">
           <nav className="flex flex-col space-y-4 text-white text-lg items-center">
-            <a href="#home" className="hover:underline" onClick={() => setIsOpen(false)}>Home</a>
-            <a href="#features" className="hover:underline" onClick={() => setIsOpen(false)}>Features</a>
-            <a href="#contact" className="hover:underline" onClick={() => setIsOpen(false)}>Contact</a>
+            <a href="/" className="hover:underline hover:text-yellow-400 transition-colors" onClick={() => setIsOpen(false)}>Home</a>
+            <a href="explore" className="hover:underline hover:text-yellow-400 transition-colors" onClick={() => setIsOpen(false)}>Explore</a>
+            <a href="about" className="hover:underline hover:text-yellow-400 transition-colors" onClick={() => setIsOpen(false)}>About Us</a>
+            <a href="contact" className="hover:underline hover:text-yellow-400 transition-colors" onClick={() => setIsOpen(false)}>Contact</a>
+            <a href="services" className="hover:underline hover:text-yellow-400 transition-colors" onClick={() => setIsOpen(false)}>Services</a>
           </nav>
         </div>
       )}
